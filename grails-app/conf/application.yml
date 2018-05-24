@@ -63,6 +63,13 @@ grails:
         encoding: UTF-8
 
 ---
+grails:
+    databinding:
+        dateFormats:
+            -  "yyyy-MM-dd'T'HH:mm:ss'Z'"
+            -  "yyyy-MM-dd HH:mm:ss"
+            -  "yyyy-MM-dd"
+---
 hibernate:
     cache:
         queries: false
