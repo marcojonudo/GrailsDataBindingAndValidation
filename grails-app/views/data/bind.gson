@@ -1,0 +1,12 @@
+import grailsdatabindingandvalidation.binding.DataBindingJson
+import grailsdatabindingandvalidation.binding.DataBindingParams
+
+model {
+    DataBindingParams dataBindingParams
+    DataBindingJson dataBindingJson
+}
+
+json {
+    dataBindingParams g.render(dataBindingParams)
+    dataBindingJson g.render(dataBindingJson)
+}
