@@ -1,0 +1,12 @@
+import grailsdatabindingandvalidation.messages.validation.DataValidationJson
+import grailsdatabindingandvalidation.messages.validation.DataValidationParams
+
+model {
+    DataValidationParams dataValidationParams
+    DataValidationJson dataValidationJson
+}
+
+json {
+    dataValidationParams g.render(dataValidationParams)
+    dataValidationJson g.render(dataValidationJson)
+}

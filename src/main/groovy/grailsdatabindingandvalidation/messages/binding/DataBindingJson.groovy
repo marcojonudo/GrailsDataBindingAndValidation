@@ -1,4 +1,4 @@
-package grailsdatabindingandvalidation.binding
+package grailsdatabindingandvalidation.messages.binding
 
 import grails.databinding.BindingFormat
 import grailsdatabindingandvalidation.BindingObject

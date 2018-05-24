@@ -1,4 +1,4 @@
-package grailsdatabindingandvalidation.binding
+package grailsdatabindingandvalidation.messages.binding
 
 import grailsdatabindingandvalidation.BindingObject
 import groovy.transform.InheritConstructors

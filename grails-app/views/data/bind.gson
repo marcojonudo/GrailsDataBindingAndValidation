@@ -1,5 +1,5 @@
-import grailsdatabindingandvalidation.binding.DataBindingJson
-import grailsdatabindingandvalidation.binding.DataBindingParams
+import grailsdatabindingandvalidation.messages.binding.DataBindingJson
+import grailsdatabindingandvalidation.messages.binding.DataBindingParams
 
 model {
     DataBindingParams dataBindingParams
