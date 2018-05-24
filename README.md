@@ -54,7 +54,7 @@ Return message is:
                 "field": "fieldToLowerCase",
                 "message": "Gandalf dice \"you shall not pass!\"",
                 "rejectedValue": "you shall not pass!",
-                "status": 400
+                "status": 422
             },
             {
                 "className": "DataValidationJson",
